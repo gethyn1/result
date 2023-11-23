@@ -2,6 +2,13 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "strictNullChecks": true
-  }
+    "strict": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "outDir": "./dist",
+    "declaration": true
+  },
+  "include": [
+    "./src"
+  ]
 }

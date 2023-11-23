@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix",
+    "tsc": "tsc -p tsconfig.json"
   },
   "author": "gethyn1",
   "license": "ISC",
