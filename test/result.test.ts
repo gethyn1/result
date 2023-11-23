@@ -7,7 +7,7 @@ import {
   error,
   unwrapError,
   unwrapValue,
-} from "./result";
+} from "../src/result";
 
 describe("Result", () => {
   describe("isError", () => {
