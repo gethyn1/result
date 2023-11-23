@@ -2,12 +2,16 @@
   "name": "result",
   "version": "1.0.0",
   "description": "A simple Result type for Typescript",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "vitest",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "tsc": "tsc -p tsconfig.json"
+    "tsc": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run tsc"
   },
   "author": "gethyn1",
   "license": "ISC",
