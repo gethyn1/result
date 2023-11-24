@@ -1,6 +1,6 @@
 {
-  "name": "result",
-  "version": "1.0.0",
+  "name": "@getjo/ts-result",
+  "version": "1.0.1",
   "description": "A simple Result type for Typescript",
   "main": "./dist/index.js",
   "files": [
@@ -24,5 +24,23 @@
     "prettier": "^3.1.0",
     "typescript": "^5.3.2",
     "vitest": "^0.34.6"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethyn1/result.git"
+  },
+  "keywords": [
+    "result",
+    "domain",
+    "errors",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/gethyn1/result/issues"
+  },
+  "homepage": "https://github.com/gethyn1/result#readme"
 }
