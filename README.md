@@ -26,7 +26,7 @@ type HttpResponse = {
   body?: string
 }
 
-const createUser = async (dto: { email: string }): Promise<UserResult> => {
+const createUser = (dto: { email: string }): UserResult => {
   if (!dto.email.includes("@")) {
     return error("InvalidEmail")
   }
@@ -34,8 +34,8 @@ const createUser = async (dto: { email: string }): Promise<UserResult> => {
   return ok({ email: "example@me.com" })
 }
 
-export const httpHandler = async (dto: { email: string }): Promise<HttpResponse> => {
-  const createUserResult = await createUser(dto)
+const httpHandler = (dto: { email: string }): HttpResponse => {
+  const createUserResult = createUser(dto)
 
   if (isOk(createUserResult)) {
     return {
