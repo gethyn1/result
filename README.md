@@ -10,7 +10,7 @@ There are various implementations of this type across the internet. They are gen
 
 ## Installation
 
-To install the package run `npm install @gethyn1/result`
+To install the package run `npm install @getjo/result`
 
 ## Usage
 
