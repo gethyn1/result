@@ -1,4 +1,4 @@
-# Result
+# TS Result
 
 A simple `Result` type for Typescript loosely inspired by [F# `Result`](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-fsharpresult-2.html)
 
@@ -10,7 +10,7 @@ There are various implementations of this type across the internet. They are gen
 
 ## Installation
 
-To install the package run `npm install @getjo/result`
+To install the package run `npm install @getjo/ts-result`
 
 ## Usage
 
