@@ -1,6 +1,6 @@
 {
   "name": "@getjo/ts-result",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple Result type for Typescript",
   "main": "./dist/index.js",
   "files": [
