@@ -1,3 +1,5 @@
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/gethyn1/ts-result/main.yml) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40getjo/ts-result) [![npm version](https://badge.fury.io/js/@getjo%2Fts-result.svg)](https://badge.fury.io/js/@getjo%2Fts-result)
+
 # TS Result
 
 A simple `Result` type for Typescript loosely inspired by [F# `Result`](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-fsharpresult-2.html)
